@@ -7,7 +7,7 @@
 //
 
 #import "TestController.h"
-
+//#import "IBScrollView.h"
 @interface TestController ()<UIScrollViewDelegate>
 @property (nonatomic, strong) UIImage *originImg;
 
@@ -50,9 +50,9 @@ static float testValue = 200;
     self.imageView.image = self.originImg;
     self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width, self.scrollView.frame.size.height);
     
-    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panImageView:)];
-    [self.imageView addGestureRecognizer:pan];
-    self.imageView.userInteractionEnabled = YES;
+//    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panImageView:)];
+//    [self.imageView addGestureRecognizer:pan];
+//    self.imageView.userInteractionEnabled = YES;
     
 //    CGFloat testValue = 200;
 //    self.scrollView.contentSize = CGSizeMake(imageViewRect.size.width + testValue, self.scrollView.frame.size.height + testValue);
@@ -61,11 +61,27 @@ static float testValue = 200;
 
 }
 
+//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+//    NSLog(@"liang touchesBegan count %lu", (unsigned long)touches.count);
+//}
+//
+//- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+//    NSLog(@"liang touchesMoved count %lu", (unsigned long)touches.count);
+//}
+//
+//- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+//    NSLog(@"liang touchesEnded count %lu", (unsigned long)touches.count);
+//}
+//
+//- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+//    NSLog(@"liang touchesCancelled count %lu", (unsigned long)touches.count);
+//}
+
 - (UIScrollView *)scrollView {
     if (!_scrollView) {
         _scrollView = [[UIScrollView alloc] init];
         _scrollView.bouncesZoom = YES;
-        _scrollView.maximumZoomScale = 5.5;
+        _scrollView.maximumZoomScale = 2.5;
         _scrollView.minimumZoomScale = 1.0;
         _scrollView.multipleTouchEnabled = YES;
         _scrollView.delegate = self;
@@ -143,26 +159,26 @@ static float testValue = 200;
     [self refreshImageContainerViewCenter];
 }
 #pragma mark - Private
-- (void)panImageView:(UIPanGestureRecognizer *)pan {
-    UIImageView * imageView = (UIImageView *)pan.view;
-    
-    if (pan.state == UIGestureRecognizerStateBegan) {
-        
-        //记录中心位置
-        self.startImageCenter = imageView.center;
-        self.startGCenter = [pan locationInView:self.view];
-        return;
-    }
-    
-    //非开始阶段
-    //获得手势移动的距离 现在的位置
-    CGPoint nowGCenter = [pan locationInView:self.view];
-    float x = nowGCenter.x - self.startGCenter.x;
-    float y = nowGCenter.y - self.startGCenter.y;
-    
-    //计算imageview的相对位移
-    imageView.center = CGPointMake(self.startImageCenter.x+x, self.startImageCenter.y+y);
-}
+//- (void)panImageView:(UIPanGestureRecognizer *)pan {
+//    UIImageView * imageView = (UIImageView *)pan.view;
+//
+//    if (pan.state == UIGestureRecognizerStateBegan) {
+//
+//        //记录中心位置
+//        self.startImageCenter = imageView.center;
+//        self.startGCenter = [pan locationInView:self.view];
+//        return;
+//    }
+//
+//    //非开始阶段
+//    //获得手势移动的距离 现在的位置
+//    CGPoint nowGCenter = [pan locationInView:self.view];
+//    float x = nowGCenter.x - self.startGCenter.x;
+//    float y = nowGCenter.y - self.startGCenter.y;
+//
+//    //计算imageview的相对位移
+//    imageView.center = CGPointMake(self.startImageCenter.x+x, self.startImageCenter.y+y);
+//}
 
 - (void)refreshImageContainerViewCenter {
     CGFloat offsetX = (_scrollView.frame.size.width > _scrollView.contentSize.width) ? ((_scrollView.frame.size.width - _scrollView.contentSize.width) * 0.5) : 0.0;

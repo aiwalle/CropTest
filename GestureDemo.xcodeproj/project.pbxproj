@@ -22,6 +22,8 @@
 		A1B20E1E1ED195B1004265C0 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B20E1D1ED195B1004265C0 /* PinchViewController.m */; };
 		A1B20E211ED19A84004265C0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B20E201ED19A84004265C0 /* BaseViewController.m */; };
 		B62342E128F6C04100A4B4F2 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62342E028F6C04100A4B4F2 /* TestController.m */; };
+		B62342E428F6E81E00A4B4F2 /* IBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B62342E328F6E81E00A4B4F2 /* IBScrollView.m */; };
+		B62342E728F6EB3400A4B4F2 /* TestTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62342E628F6EB3400A4B4F2 /* TestTwoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,10 @@
 		A1B20E201ED19A84004265C0 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		B62342DF28F6C04100A4B4F2 /* TestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
 		B62342E028F6C04100A4B4F2 /* TestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		B62342E228F6E81E00A4B4F2 /* IBScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBScrollView.h; sourceTree = "<group>"; };
+		B62342E328F6E81E00A4B4F2 /* IBScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBScrollView.m; sourceTree = "<group>"; };
+		B62342E528F6EB3400A4B4F2 /* TestTwoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTwoController.h; sourceTree = "<group>"; };
+		B62342E628F6EB3400A4B4F2 /* TestTwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTwoController.m; sourceTree = "<group>"; };
 		BCC86EAE822650FFED38C32C /* Pods_GestureDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GestureDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F804DAF449E4405AA00B92 /* Pods-GestureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GestureDemo.release.xcconfig"; path = "Target Support Files/Pods-GestureDemo/Pods-GestureDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +132,10 @@
 				A1B20E1D1ED195B1004265C0 /* PinchViewController.m */,
 				B62342DF28F6C04100A4B4F2 /* TestController.h */,
 				B62342E028F6C04100A4B4F2 /* TestController.m */,
+				B62342E528F6EB3400A4B4F2 /* TestTwoController.h */,
+				B62342E628F6EB3400A4B4F2 /* TestTwoController.m */,
+				B62342E228F6E81E00A4B4F2 /* IBScrollView.h */,
+				B62342E328F6E81E00A4B4F2 /* IBScrollView.m */,
 				A1B20DFF1ED19517004265C0 /* Main.storyboard */,
 				A1B20E021ED19517004265C0 /* Assets.xcassets */,
 				A1B20E041ED19517004265C0 /* LaunchScreen.storyboard */,
@@ -263,6 +273,8 @@
 			files = (
 				A1B20DFE1ED19517004265C0 /* ViewController.m in Sources */,
 				A1B20E211ED19A84004265C0 /* BaseViewController.m in Sources */,
+				B62342E728F6EB3400A4B4F2 /* TestTwoController.m in Sources */,
+				B62342E428F6E81E00A4B4F2 /* IBScrollView.m in Sources */,
 				A1B20E1E1ED195B1004265C0 /* PinchViewController.m in Sources */,
 				A1B20DFB1ED19517004265C0 /* AppDelegate.m in Sources */,
 				A1B20E1B1ED195AA004265C0 /* RotationViewController.m in Sources */,
