@@ -16,7 +16,7 @@
 @property (nonatomic, strong) UIImageView *imageView;
 
 // 图片初始缩放系数
-@property (nonatomic, assign) float startScale;
+//@property (nonatomic, assign) float startScale;
 // 图片初始中心点
 @property (nonatomic) CGPoint startImageCenter;
 // 手势初始中心点
