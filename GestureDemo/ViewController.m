@@ -30,11 +30,11 @@
     [self loadData];
     [self.view addSubview:self.tableView];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        TestController * test = [TestController new];
-//        [self.navigationController pushViewController:test animated:YES];
-        
-        TestTwoController * test = [TestTwoController new];
+        TestController * test = [TestController new];
         [self.navigationController pushViewController:test animated:YES];
+        
+//        TestTwoController * test = [TestTwoController new];
+//        [self.navigationController pushViewController:test animated:YES];
     });
 }
 
