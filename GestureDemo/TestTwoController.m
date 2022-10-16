@@ -27,7 +27,16 @@
     self.scrollView.frame = CGRectMake(scrollX, scrollY, scrollW, scrollH);
     [self.view addSubview:self.scrollView];
     
-    self.scrollView.originImg = originImg;
+//    self.scrollView.originImg = originImg;
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    if (!self.scrollView.originImg) {
+        
+        UIImage *originImg = [UIImage imageNamed:@"c001"];
+        self.scrollView.originImg = originImg;
+    }
 }
 
 - (IBScrollView *)scrollView {

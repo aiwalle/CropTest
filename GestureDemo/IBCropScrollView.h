@@ -1,8 +1,8 @@
 //
-//  IBScrollView.h
+//  IBCropScrollView.h
 //  GestureDemo
 //
-//  Created by xmly on 2022/10/12.
+//  Created by xmly on 2022/10/13.
 //  Copyright © 2022 Abner_G. All rights reserved.
 //
 
@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface IBScrollView : UIView
-@property (nonatomic, strong) UIImage *originImg;
+@interface IBCropScrollView : UIScrollView
+
 @end
 
 NS_ASSUME_NONNULL_END
