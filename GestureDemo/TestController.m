@@ -152,7 +152,7 @@ static float testValue = 200;
     if (!_scrollView) {
         _scrollView = [[IBCropScrollView alloc] init];
         _scrollView.bouncesZoom = YES;
-        _scrollView.maximumZoomScale = 5;
+        _scrollView.maximumZoomScale = 2.0;
         _scrollView.minimumZoomScale = 1.0;
         _scrollView.multipleTouchEnabled = YES;
 //        _scrollView.adjustedContentInset = NO;
@@ -198,6 +198,7 @@ static float testValue = 200;
 //    scrollView.contentInset = UIEdgeInsetsZero;
     self.testBeginCenter = [self.imageView.superview convertPoint:self.imageView.center toView:self.imageContainerView];
     NSLog(@"Liang newTest beginZoom %@", NSStringFromCGPoint(self.imageView.center));
+    NSLog(@"Liang newTest 当前偏移量 00000 %@", NSStringFromCGPoint(self.testBeginCenter));
 }
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
@@ -260,12 +261,6 @@ static float testValue = 200;
     [self refreshImageContainerViewCenter];
 }
 #pragma mark - Private
-//-(void)pinchImage:(UIPinchGestureRecognizer *)pinch{
-//    NSLog(@"Liang scale pinchImage %f", pinch.scale);
-//    [self.scrollView setZoomScale:pinch.scale animated:YES];
-//}
-
-
 - (void)panImageView:(UIPanGestureRecognizer *)pan {
     UIImageView * imageView = (UIImageView *)pan.view;
 
@@ -310,7 +305,7 @@ static float testValue = 200;
     }
     
     
-    
+    NSLog(@"Liang newTest 当前偏移量 00000 %@", NSStringFromCGPoint([self.imageView.superview convertPoint:self.imageView.center toView:self.imageContainerView]));
     
 //    NSLog(@"Liang zommView 0 offsetX %f offsetY %f", offsetX, offsetY);
 //    NSLog(@"Liang zommView 1 center %@", NSStringFromCGPoint(self.imageContainerView.center));

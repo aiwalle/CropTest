@@ -2,72 +2,36 @@
 //  TestTwoController.m
 //  GestureDemo
 //
-//  Created by xmly on 2022/10/12.
+//  Created by xmly on 2022/10/31.
 //  Copyright © 2022 Abner_G. All rights reserved.
 //
 
 #import "TestTwoController.h"
-#import "IBScrollView.h"
+
 @interface TestTwoController ()
-@property (nonatomic, strong) IBScrollView *scrollView;
+
 @end
 
 @implementation TestTwoController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = UIColor.whiteColor;
     
-    UIImage *originImg = [UIImage imageNamed:@"c001"];
+    UIView *smallView = [[UIView alloc] initWithFrame:CGRectMake(0, 200, 300, 300)];
+    smallView.backgroundColor = UIColor.blueColor;
+    [self.view addSubview:smallView];
     
-    CGFloat navHeight = CGRectGetMaxY(self.navigationController.navigationBar.frame);
-    CGFloat scrollX = 0;
-    CGFloat scrollY = navHeight;
-    CGFloat scrollH = self.view.frame.size.height - navHeight;
-    CGFloat scrollW = self.view.frame.size.width;
-    self.scrollView.frame = CGRectMake(scrollX, scrollY, scrollW, scrollH);
-    [self.view addSubview:self.scrollView];
+    UIView *bigView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 400)];
+    bigView.backgroundColor = UIColor.redColor;
+    [smallView addSubview:bigView];
     
-//    self.scrollView.originImg = originImg;
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"c001"]];
+    imageView.frame = CGRectMake(0, 100, 250, 350);
+    [bigView addSubview:imageView];
+    
 }
 
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
-    if (!self.scrollView.originImg) {
-        
-        UIImage *originImg = [UIImage imageNamed:@"c001"];
-        self.scrollView.originImg = originImg;
-    }
-}
 
-- (IBScrollView *)scrollView {
-    if (!_scrollView) {
-        _scrollView = [[IBScrollView alloc] init];
-//        _scrollView.bouncesZoom = YES;
-//        _scrollView.maximumZoomScale = 2.5;
-//        _scrollView.minimumZoomScale = 1.0;
-//        _scrollView.multipleTouchEnabled = YES;
-//        _scrollView.delegate = self;
-//        _scrollView.scrollsToTop = NO;
-//        _scrollView.showsHorizontalScrollIndicator = NO;
-//        _scrollView.showsVerticalScrollIndicator = NO;
-////        _scrollView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-//        _scrollView.delaysContentTouches = NO;
-//        _scrollView.canCancelContentTouches = YES;
-//        _scrollView.alwaysBounceVertical = NO;
-//        _scrollView.contentOffset = CGPointMake(-100, -100)
-//        _scrollView.contentInset = UIEdgeInsetsMake(200, 200, 200, 200);
-    }
-    return _scrollView;
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

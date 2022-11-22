@@ -1,8 +1,8 @@
 //
-//  TestTwoController.h
+//  IBTextScaleController.h
 //  GestureDemo
 //
-//  Created by xmly on 2022/10/31.
+//  Created by xmly on 2022/11/3.
 //  Copyright © 2022 Abner_G. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TestTwoController : UIViewController
+@interface IBTextScaleController : UIViewController
 
 @end
 
