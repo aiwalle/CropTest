@@ -15,6 +15,7 @@
 #import "PinchViewController.h"
 #import "TestController.h"
 #import "TestTwoController.h"
+#import "IBScrollTestController.h"
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView * tableView;
@@ -33,14 +34,17 @@
 //        TestController * test = [TestController new];
 //        [self.navigationController pushViewController:test animated:YES];
         
-        PinchViewController * test = [PinchViewController new];
+//        PinchViewController * test = [PinchViewController new];
+//        [self.navigationController pushViewController:test animated:YES];
+        
+        IBScrollTestController * test = [IBScrollTestController new];
         [self.navigationController pushViewController:test animated:YES];
     });
 }
 
 - (void)loadData {
     
-    [self.dataArr addObjectsFromArray:@[@"轻触 tap",@"拖拽 pan",@"轻扫 swipe",@"长按 longPress",@"旋转 rotation",@"捏合 pinch", @"测试", @"测试2"]];
+    [self.dataArr addObjectsFromArray:@[@"轻触 tap",@"拖拽 pan",@"轻扫 swipe",@"长按 longPress",@"旋转 rotation",@"捏合 pinch", @"测试", @"测试2", @"滑动"]];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -95,6 +99,9 @@
         [self.navigationController pushViewController:test animated:YES];
     } else if (indexPath.row == 7) {
         TestController * test = [TestController new];
+        [self.navigationController pushViewController:test animated:YES];
+    } else if (indexPath.row == 8) {
+        IBScrollTestController * test = [IBScrollTestController new];
         [self.navigationController pushViewController:test animated:YES];
     }
 }

@@ -29,6 +29,7 @@
 		B685216128F7AA0100DF7D7D /* IBCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B685216028F7AA0100DF7D7D /* IBCropScrollView.m */; };
 		B6875E6A2929B4C7000998E2 /* GYStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6875E692929B4C7000998E2 /* GYStickerView.m */; };
 		B6BCF0EB28F9376C003322F3 /* IBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BCF0EA28F9376C003322F3 /* IBImageView.m */; };
+		B6F941EA293F1C9F00D418F9 /* IBScrollTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F941E9293F1C9F00D418F9 /* IBScrollTestController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,8 @@
 		B6875E692929B4C7000998E2 /* GYStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYStickerView.m; sourceTree = "<group>"; };
 		B6BCF0E928F9376C003322F3 /* IBImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBImageView.h; sourceTree = "<group>"; };
 		B6BCF0EA28F9376C003322F3 /* IBImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBImageView.m; sourceTree = "<group>"; };
+		B6F941E8293F1C9F00D418F9 /* IBScrollTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBScrollTestController.h; sourceTree = "<group>"; };
+		B6F941E9293F1C9F00D418F9 /* IBScrollTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBScrollTestController.m; sourceTree = "<group>"; };
 		BCC86EAE822650FFED38C32C /* Pods_GestureDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GestureDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F804DAF449E4405AA00B92 /* Pods-GestureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GestureDemo.release.xcconfig"; path = "Target Support Files/Pods-GestureDemo/Pods-GestureDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,6 +164,8 @@
 				B6BCF0EA28F9376C003322F3 /* IBImageView.m */,
 				B62FE6462927E53100C3DD05 /* IBLabel.h */,
 				B62FE6472927E53100C3DD05 /* IBLabel.m */,
+				B6F941E8293F1C9F00D418F9 /* IBScrollTestController.h */,
+				B6F941E9293F1C9F00D418F9 /* IBScrollTestController.m */,
 				A1B20DFF1ED19517004265C0 /* Main.storyboard */,
 				A1B20E021ED19517004265C0 /* Assets.xcassets */,
 				A1B20E041ED19517004265C0 /* LaunchScreen.storyboard */,
@@ -299,6 +304,7 @@
 				A1B20DFE1ED19517004265C0 /* ViewController.m in Sources */,
 				A1B20E211ED19A84004265C0 /* BaseViewController.m in Sources */,
 				B62342E428F6E81E00A4B4F2 /* IBScrollView.m in Sources */,
+				B6F941EA293F1C9F00D418F9 /* IBScrollTestController.m in Sources */,
 				A1B20E1E1ED195B1004265C0 /* PinchViewController.m in Sources */,
 				A1B20DFB1ED19517004265C0 /* AppDelegate.m in Sources */,
 				B6BCF0EB28F9376C003322F3 /* IBImageView.m in Sources */,
