@@ -16,6 +16,11 @@
 #import "TestController.h"
 #import "TestTwoController.h"
 #import "IBScrollTestController.h"
+
+
+
+
+
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView * tableView;
@@ -37,8 +42,8 @@
 //        PinchViewController * test = [PinchViewController new];
 //        [self.navigationController pushViewController:test animated:YES];
         
-        IBScrollTestController * test = [IBScrollTestController new];
-        [self.navigationController pushViewController:test animated:YES];
+//        IBScrollTestController * test = [IBScrollTestController new];
+//        [self.navigationController pushViewController:test animated:YES];
     });
 }
 

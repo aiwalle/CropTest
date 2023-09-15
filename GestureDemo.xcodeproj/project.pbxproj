@@ -25,10 +25,13 @@
 		B62342E428F6E81E00A4B4F2 /* IBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B62342E328F6E81E00A4B4F2 /* IBScrollView.m */; };
 		B62E5C7C290F6B3300F10021 /* TestTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62E5C7B290F6B3300F10021 /* TestTwoController.m */; };
 		B62FE6482927E53100C3DD05 /* IBLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FE6472927E53100C3DD05 /* IBLabel.m */; };
+		B64B6025299CE6CC00C7FD60 /* IBCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B6024299CE6CC00C7FD60 /* IBCollectionViewController.m */; };
+		B64B6028299CE6F100C7FD60 /* IBItemsFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B6027299CE6F100C7FD60 /* IBItemsFilterView.m */; };
 		B65404C82913B13E00FB7CC8 /* IBTextScaleController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65404C72913B13E00FB7CC8 /* IBTextScaleController.m */; };
 		B685216128F7AA0100DF7D7D /* IBCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B685216028F7AA0100DF7D7D /* IBCropScrollView.m */; };
 		B6875E6A2929B4C7000998E2 /* GYStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6875E692929B4C7000998E2 /* GYStickerView.m */; };
 		B6BCF0EB28F9376C003322F3 /* IBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BCF0EA28F9376C003322F3 /* IBImageView.m */; };
+		B6C74051299CF22A00949DB6 /* IBFilterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C7404F299CF22A00949DB6 /* IBFilterModel.m */; };
 		B6F941EA293F1C9F00D418F9 /* IBScrollTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F941E9293F1C9F00D418F9 /* IBScrollTestController.m */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +69,10 @@
 		B62E5C7B290F6B3300F10021 /* TestTwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTwoController.m; sourceTree = "<group>"; };
 		B62FE6462927E53100C3DD05 /* IBLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBLabel.h; sourceTree = "<group>"; };
 		B62FE6472927E53100C3DD05 /* IBLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBLabel.m; sourceTree = "<group>"; };
+		B64B6023299CE6CC00C7FD60 /* IBCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBCollectionViewController.h; sourceTree = "<group>"; };
+		B64B6024299CE6CC00C7FD60 /* IBCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBCollectionViewController.m; sourceTree = "<group>"; };
+		B64B6026299CE6F100C7FD60 /* IBItemsFilterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBItemsFilterView.h; sourceTree = "<group>"; };
+		B64B6027299CE6F100C7FD60 /* IBItemsFilterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBItemsFilterView.m; sourceTree = "<group>"; };
 		B65404C62913B13E00FB7CC8 /* IBTextScaleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBTextScaleController.h; sourceTree = "<group>"; };
 		B65404C72913B13E00FB7CC8 /* IBTextScaleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBTextScaleController.m; sourceTree = "<group>"; };
 		B685215F28F7AA0100DF7D7D /* IBCropScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBCropScrollView.h; sourceTree = "<group>"; };
@@ -74,6 +81,8 @@
 		B6875E692929B4C7000998E2 /* GYStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYStickerView.m; sourceTree = "<group>"; };
 		B6BCF0E928F9376C003322F3 /* IBImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBImageView.h; sourceTree = "<group>"; };
 		B6BCF0EA28F9376C003322F3 /* IBImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBImageView.m; sourceTree = "<group>"; };
+		B6C7404F299CF22A00949DB6 /* IBFilterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBFilterModel.m; sourceTree = "<group>"; };
+		B6C74050299CF22A00949DB6 /* IBFilterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBFilterModel.h; sourceTree = "<group>"; };
 		B6F941E8293F1C9F00D418F9 /* IBScrollTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBScrollTestController.h; sourceTree = "<group>"; };
 		B6F941E9293F1C9F00D418F9 /* IBScrollTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBScrollTestController.m; sourceTree = "<group>"; };
 		BCC86EAE822650FFED38C32C /* Pods_GestureDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GestureDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +175,9 @@
 				B62FE6472927E53100C3DD05 /* IBLabel.m */,
 				B6F941E8293F1C9F00D418F9 /* IBScrollTestController.h */,
 				B6F941E9293F1C9F00D418F9 /* IBScrollTestController.m */,
+				B64B6023299CE6CC00C7FD60 /* IBCollectionViewController.h */,
+				B64B6024299CE6CC00C7FD60 /* IBCollectionViewController.m */,
+				B6C74049299CF1F300949DB6 /* ItemFilter */,
 				A1B20DFF1ED19517004265C0 /* Main.storyboard */,
 				A1B20E021ED19517004265C0 /* Assets.xcassets */,
 				A1B20E041ED19517004265C0 /* LaunchScreen.storyboard */,
@@ -181,6 +193,33 @@
 				A1B20DF71ED19517004265C0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6C74049299CF1F300949DB6 /* ItemFilter */ = {
+			isa = PBXGroup;
+			children = (
+				B6C7404B299CF21000949DB6 /* Models */,
+				B6C7404A299CF20A00949DB6 /* Views */,
+				B64B6026299CE6F100C7FD60 /* IBItemsFilterView.h */,
+				B64B6027299CE6F100C7FD60 /* IBItemsFilterView.m */,
+			);
+			path = ItemFilter;
+			sourceTree = "<group>";
+		};
+		B6C7404A299CF20A00949DB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6C7404B299CF21000949DB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6C74050299CF22A00949DB6 /* IBFilterModel.h */,
+				B6C7404F299CF22A00949DB6 /* IBFilterModel.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,10 +323,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GestureDemo/Pods-GestureDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LookinServer/LookinServer.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LookinServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -306,10 +349,12 @@
 				B62342E428F6E81E00A4B4F2 /* IBScrollView.m in Sources */,
 				B6F941EA293F1C9F00D418F9 /* IBScrollTestController.m in Sources */,
 				A1B20E1E1ED195B1004265C0 /* PinchViewController.m in Sources */,
+				B64B6028299CE6F100C7FD60 /* IBItemsFilterView.m in Sources */,
 				A1B20DFB1ED19517004265C0 /* AppDelegate.m in Sources */,
 				B6BCF0EB28F9376C003322F3 /* IBImageView.m in Sources */,
 				B6875E6A2929B4C7000998E2 /* GYStickerView.m in Sources */,
 				A1B20E1B1ED195AA004265C0 /* RotationViewController.m in Sources */,
+				B6C74051299CF22A00949DB6 /* IBFilterModel.m in Sources */,
 				A1B20E0F1ED1955C004265C0 /* TapViewController.m in Sources */,
 				B62E5C7C290F6B3300F10021 /* TestTwoController.m in Sources */,
 				A1B20E151ED19576004265C0 /* SwipeViewController.m in Sources */,
@@ -318,6 +363,7 @@
 				B62342E128F6C04100A4B4F2 /* TestController.m in Sources */,
 				B685216128F7AA0100DF7D7D /* IBCropScrollView.m in Sources */,
 				B62FE6482927E53100C3DD05 /* IBLabel.m in Sources */,
+				B64B6025299CE6CC00C7FD60 /* IBCollectionViewController.m in Sources */,
 				B65404C82913B13E00FB7CC8 /* IBTextScaleController.m in Sources */,
 				A1B20E121ED19566004265C0 /* PanViewController.m in Sources */,
 			);

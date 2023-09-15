@@ -1,16 +1,26 @@
 PODS:
   - LookinServer (1.0.6)
+  - Masonry (1.1.0)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
   - LookinServer
+  - Masonry
+  - YYCategories
 
 SPEC REPOS:
   trunk:
     - LookinServer
+    - Masonry
+    - YYCategories
 
 SPEC CHECKSUMS:
   LookinServer: 18155b1e4a08213c236a1dd6b7ca52328a70a1e3
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: a07dbd6c47abf3710f04c4e14eec4281335b36bc
+PODFILE CHECKSUM: f22867ed8fe57345b5a5ee80903b36300a4d7db8
 
 COCOAPODS: 1.11.2

@@ -7,4 +7,6 @@ target 'GestureDemo' do
 
   # Pods for GestureDemo
   pod 'LookinServer', :configurations => ['Debug']
+  pod 'Masonry'
+  pod 'YYCategories'
 end
