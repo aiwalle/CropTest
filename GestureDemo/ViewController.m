@@ -143,4 +143,8 @@
 - (void)methodB {
     
 }
+
+- (void)methodC {
+    
+}
 @end
